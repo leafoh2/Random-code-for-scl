@@ -1,3 +1,5 @@
+#made by @67bf on discord
+
 #This code utilizes try: except: else: logic as well as nested ifs.
 
 try:
