@@ -1,3 +1,5 @@
+#made by @67bf on discord
+
 #how long will it take you to drive to your destination
 
 print("How long will it take you to drive to your destination?")
