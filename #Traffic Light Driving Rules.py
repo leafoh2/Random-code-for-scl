@@ -1,3 +1,5 @@
+#made by @67bf on discord
+
 #Traffic Light Driving Rules
 colorLight = input ("What color is the traffic light? ")
 
