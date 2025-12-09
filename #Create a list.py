@@ -1,3 +1,5 @@
+#Made by @67bf on discord
+
 #Create a list
 exampleList = ["friday", "saturday", "sunday"]
 print()
@@ -62,4 +64,5 @@ print()
 #clear removes all items from the list
 exampleListCopy.clear()
 print (exampleListCopy)
+
 
