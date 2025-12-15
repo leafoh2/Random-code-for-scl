@@ -1,3 +1,5 @@
+#Made by @67bf on dc
+
 #beach list
 beachList = ["towel", "sunscreen", "book", "water bottle", "hat"]
 
@@ -22,3 +24,4 @@ beachList.sort()
 print("Beach list in alphabetical order:")
 print ()
 print(beachList)
+
