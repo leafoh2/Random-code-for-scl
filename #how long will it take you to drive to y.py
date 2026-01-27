@@ -5,16 +5,19 @@
 print("How long will it take you to drive to your destination?")
 
 def calcHours():
-    miles_entered = input("Enter the number of miles of your destination    (or press Enter for 0): ")
-    miles = int(miles_entered or "0")
+    miles_entered = input("Enter the number of miles of your destination (or press Enter for 0): ").strip()
+    try:
+        miles = float(miles_entered or "0")
+    except ValueError:
+        return None
     milesPerHour = 65
     # compute hours (use float for partial hours)
-    hours = miles / milesPerHour if milesPerHour != 0 else None
-    return hours
+    return miles / milesPerHour
 def checkHours():
     hours = calcHours()
 
     if hours is None:
+        print("Please enter the number of miles to your destination.")
         return
 
     print("Your drive is " + str(hours) + " hours.")

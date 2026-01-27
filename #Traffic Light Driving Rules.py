@@ -1,7 +1,7 @@
 #made by @67bf on discord
 
 #Traffic Light Driving Rules
-colorLight = input ("What color is the traffic light? ")
+colorLight = input("What color is the traffic light? ").strip().lower()
 
 #What should you do?
 if colorLight == "red":
@@ -11,8 +11,7 @@ elif colorLight == "yellow":
     print("You should proceed with caution.")
 
 elif colorLight == "green":
-    print("You can continue foward.")
+    print("You can continue forward.")
 
 else:
     print("The light is not working. Use stop sign rules.")
-
